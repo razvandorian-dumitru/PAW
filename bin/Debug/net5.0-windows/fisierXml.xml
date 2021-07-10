@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Student>
+  <Cod>123</Cod>
+  <Nume>rwerwer</Nume>
+  <Varsta>30</Varsta>
+  <Sex>F</Sex>
+  <An>2</An>
+  <Materii>
+    <Materie>
+      <Denumire>werw</Denumire>
+      <Nota>1</Nota>
+      <Credite>1</Credite>
+      <TipExamen>VERIFICARE</TipExamen>
+    </Materie>
+    <Materie>
+      <Denumire>werwerwer</Denumire>
+      <Nota>1</Nota>
+      <Credite>1</Credite>
+      <TipExamen>VERIFICARE</TipExamen>
+    </Materie>
+    <Materie>
+      <Denumire>qqqqqqq</Denumire>
+      <Nota>1</Nota>
+      <Credite>1</Credite>
+      <TipExamen>VERIFICARE</TipExamen>
+    </Materie>
+  </Materii>
+  <NrCredite>3</NrCredite>
+  <Medie>1</Medie>
+  <TipFinantare>TAXA</TipFinantare>
+</Student>
+
+

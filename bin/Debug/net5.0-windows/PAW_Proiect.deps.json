@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PAW_Proiect/1.0.0": {
+        "runtime": {
+          "PAW_Proiect.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PAW_Proiect/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

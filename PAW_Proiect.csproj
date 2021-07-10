@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Formulare\AddStudent.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Formulare\StudentiForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Remove="Formulare\AddAnUniversitar.cs" />
+      <Compile Remove="Formulare\AddAnUniversitar.Designer.cs" />
+      <Compile Remove="clase\AnUniversitar.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Formulare\AddAnUniversitar.resx" />
+    </ItemGroup>
+
+</Project>
